@@ -11,6 +11,3 @@ const server = http.createServer((request, response) => {
 server.listen(PORT, HOSTNAME, () => {
 console.log(`Server running at http://${HOSTNAME}:${PORT}/`);
 });
-
-console.log (__filename);
-console.log(__dirname);
