@@ -17,8 +17,11 @@ const server = http.createServer((req, res) => {
             res.statusCode = 200;
             break;
         default:
+            /* This code would redirect to Home
             res.setHeader('Location', '/');
-            res.statusCode = 301;
+            res.statusCode = 301; */
+            path += '404.html';
+            res.statusCode = 404;
             break;
     }
 
