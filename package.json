@@ -2,11 +2,11 @@
   "name": "server-zachtheis",
   "version": "1.0.0",
   "description": "",
-  "main": "server07.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon server07",
-    "start": "node server07"
+    "dev": "nodemon server",
+    "start": "node server"
   },
   "repository": {
     "type": "git",
